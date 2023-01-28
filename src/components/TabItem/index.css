@@ -1,0 +1,25 @@
+.tab-item-container {
+  border-left: 2px solid #e2e8f0;
+  color: #64748b;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-item-container {
+    padding-top: 18px;
+    padding-left: 10px;
+  }
+}
+
+.tab-btn {
+  background-color: transparent;
+  border: 0;
+  font-size: 20px;
+  color: #64748b;
+}
+
+.active-tab-btn {
+  color: #7c3aed;
+  border-left: solid 2px #7c3aed;
+  font-size: 22px;
+}
